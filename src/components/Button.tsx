@@ -1,9 +1,8 @@
 import React from 'react';
+import Button from '@mui/material/Button';
 
-const Button = (): React.ReactElement<any> => {
-  return (
-    <div>Button</div>
-  )
-}
-
-export default Button;
+export default ({ children }: {children: React.ReactNode} ) =>(
+  <Button>
+    { children }
+  </Button>
+);

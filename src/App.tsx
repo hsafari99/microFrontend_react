@@ -1,8 +1,15 @@
 import React from 'react';
+// import { createMemoryHistory } from 'history';
 
-const App = ():React.ReactElement<any> => {
+import Layout from './components/Layout';
+
+const App = () => {
+  // const history = createMemoryHistory();
+
   return (
-    <div>App</div>
+    <div>App
+      <Layout />
+    </div>
   );
 }
 
